@@ -1,0 +1,7 @@
+git init
+git remote add origin https://github.com/srikanthpandi/JFS-57-corejava-SrikanthPandi.git
+git branch -M main
+git add .
+git commit -m "Add Core Java files"
+git pull origin main --allow-unrelated-histories
+git push -u origin main
