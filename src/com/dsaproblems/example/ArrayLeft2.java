@@ -6,7 +6,6 @@ public class ArrayLeft2{
 		int n = arr.length;
 		int d = 2; 
 		while (d > 0) {
-		
 			int first = arr[0];
 			for (int i = 0; i < n - 1; i++) {
 				arr[i] = arr[i + 1];
